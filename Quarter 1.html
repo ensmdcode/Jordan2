@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="LPSCI_logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Background.png");
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 20px;
+  font-family: courier;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.Home {
+  font-family: courier;
+  color: #B3EBF2;
+  font-size: 30px;
+}
+
+.dropdown-content {
+  font-family: courier;
+  color: #B3EBF2;
+  display: none;
+  position: absolute;
+  background-color: #00008B;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content:hover {
+  display: block;
+}
+
+
+.Quarter 1:link {
+  color: #B3EBF2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Quarter 1:hover {
+  color: #A7C7E7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.Quarter 2:link {
+  color: #B3EBF2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Quarter 2:hover {
+  color: #B3EBF2;
+  transition: color .5s;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Quarter 3:link {
+  color: #B3EBF2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Quarter 3:hover {
+  color: #A7C7E7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.Quarter 4:link {
+  color: #B3EBF2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Quarter 4:hover {
+  color: #A7C7E7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body::-webkit-scrollbar {
+  display:none;
+}
+
+.home-content {
+  border-radius: 25px;
+  background: white;
+  padding: 10px;
+  width: 1400px;
+  height: 2000px;
+  margin: auto;
+}
+
+/* Center website */
+.main {
+  max-width: 1328px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.fading-background {
+  width: 100%;
+  height: 20%;
+  padding: 0px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.0));
+}
+
+</style>
+</head>
+<body>
+<div class="dropdown">
+  <span class="Home">Quarter 1</span>
+  <div class="dropdown-content">
+  <a class="Quarter 1" href="E-Portfolio test (1).html" >Home</a><br>
+  <a class="Quarter 2" href="Quarter 2.html">Quarter 2</a>
+  <a class="Quarter 3" href="Quarter 3.html">Quarter 3</a>
+  <a class="Quarter 4" href="Quarter 4.html">Quarter 4</a>
+  </div>
+</div>
+<div class="home-content">
+<!-- MAIN (Center website) -->
+<div class="main">
+<h1>QUARTER 1</h1>
+<hr>
+
+<h2>About Me</h2>
+<p>Hello! My name is Sean Xyztan E. Jordan, I'm currently 14 years old, and I'm in Grade 9. I don't really have many hobbies, I enjoy doing math and coding. I also enjoy playing online games, like Minecraft and Geometry Dash.<br><br></p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Activity.jpg" alt="Science Practice" style="width:100%; border-radius: 15px;">
+      <h3>Science Practice</h3>
+      <p>In this picture, it is shown that Fidelity is using Ms. Uminga's time to practice for a Science Performance Task.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <video width="100%" style="border-radius: 15px;" controls><source src="MAPEH MV video.mp4" type="video/mp4"></video><br><br><br><br>
+      <h3>MAPEH MV video</h3>
+      <p>This is the video that my group produced for our MAPEH MV video. Thanks to Ms. Uminga, We were able to practice.<br></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Dropdown.jpg" alt="Dropdown practice" style="width:100%; border-radius: 15px">
+      <h3>Dropdown Activity</h3>
+      <p>In this photo, We are tasked to practice our coding on dropdowns. This was a hands-on that I took a picture of.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Forms Activity.png" alt="Forms Activity" style="width:100%; border-radius: 15px;"><br><br><br>
+      <h3>Forms Activity</h3>
+      <p>This is another hands-on activity I was suppose to write on paper, but I wanted to confirm if it was working first, so I coded it.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="Checkbox.jpg" alt="Checkbox Acitvity" style="width: 50%; border-radius: 15px; float: left;"><img src="Hyperlink.png" alt="Hyperlink Exercise" style="width:50%; border-radius: 15px; float: right;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h3>Others</h3>
+  <p>Here are other activities I did during the first quarter!</p>
+</div>
+<br>
+<br>
+<hr>
+<h2>Reflection</h2>
+<p> The First Quarter was not easy, but it was not that hard either. I did have some difficulties with the first quarter, but managed to overcome it with perseverance. Thanks to my friends, they helped me throughout the first quarter. I'll do my best to do better in the 2nd quarter!</p>
+<!-- END MAIN -->
+</div>
+</div>
+</body>
+</html>

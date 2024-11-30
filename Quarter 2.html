@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="LPSCI_logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Background.png");
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 20px;
+  font-family: courier;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.Home {
+  font-family: courier;
+  color: #B3EBF2;
+  font-size: 30px;
+}
+
+.dropdown-content {
+  font-family: courier;
+  color: #B3EBF2;
+  display: none;
+  position: absolute;
+  background-color: #00008B;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content:hover {
+  display: block;
+}
+
+
+.Quarter 1:link {
+  color: #B3EBF2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Quarter 1:hover {
+  color: #A7C7E7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.Quarter 2:link {
+  color: #B3EBF2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Quarter 2:hover {
+  color: #B3EBF2;
+  transition: color .5s;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Quarter 3:link {
+  color: #B3EBF2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Quarter 3:hover {
+  color: #A7C7E7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.Quarter 4:link {
+  color: #B3EBF2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Quarter 4:hover {
+  color: #A7C7E7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body::-webkit-scrollbar {
+  display:none;
+}
+
+.home-content {
+  border-radius: 25px;
+  background: white;
+  padding: 10px;
+  width: 1400px;
+  height: 2000px;
+  margin: auto;
+}
+
+/* Center website */
+.main {
+  max-width: 1328px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.fading-background {
+  width: 100%;
+  height: 20%;
+  padding: 0px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.0));
+}
+
+</style>
+</head>
+<body>
+<div class="dropdown">
+  <span class="Home">Quarter 2</span>
+  <div class="dropdown-content">
+  <a class="Quarter 1" href="E-Portfolio test (1).html" >Home</a><br>
+  <a class="Quarter 2" href="Quarter 1.html">Quarter 1</a>
+  <a class="Quarter 3" href="Quarter 3.html">Quarter 3</a>
+  <a class="Quarter 4" href="Quarter 4.html">Quarter 4</a>
+  </div>
+</div>
+<div class="home-content">
+<!-- MAIN (Center website) -->
+<div class="main">
+<h1>QUARTER 2</h1>
+<hr>
+
+<h2>About Me</h2>
+<p>Hello! My name is Sean Xyztan E. Jordan, I'm currently 14 years old, and I'm in Grade 9. I have started to play Volleyball, A game which I never knew I could quickly learn and be good at it.<br><br></p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Booklandia Event.jpg" alt="Booklandia Event" style="width:100%; border-radius: 15px;">
+      <h3>Booklandia Event</h3>
+      <p>3rd Place! We we're able to focus on making the props, thanks to the time Ms. Uminga gave us for this!</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <video width="100%" style="border-radius: 15px;" controls><source src="Historical Icon.mp4" type="video/mp4"></video><br><br><br><br>
+      <h3>Historical Icon Rehearsal</h3>
+      <p>In this video, Angel, our Historical Icon Representative for Fidelity, is practicing with her full costume we made out of recycled materials. I contributed here through the wings, it was a lot of fun making it! <br></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <video width="100%" style="border-radius: 15px;" controls><source src="VPOP Practice.mp4" type="video/mp4"></video>
+      <h3>VPOP Practice</h3>
+      <p>Here, we are practicing at Kurt's house with Ms. D's permission, and we wouldn't have made this much progress without the time that Ms. Uminga gave us to practice for this important event in our school.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Intramurals Opening.jpg" alt="Intramurals" style="width:100%; border-radius: 15px;"><br><br><br>
+      <h3>The Opening of Intrams</h3>
+      <p>This was an exciting event, now that Intrams is opening, and students get to participate a lot. A lot has happened during the intrams, and this was one of the major events that happened in LPSCI this school year.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+<br>
+<br>
+<hr>
+<h2>Reflection</h2>
+<p> I am still slightly struggling in the 2nd quarter, but I further deepen my understanding with <a href="https://www.w3schools.com/">w3schools.com</a>,and it has helped me since grade 8. My friends also helped me with schoolworks, and I helped them too in return.</p>
+<!-- END MAIN -->
+</div>
+</div>
+</body>
+</html>
